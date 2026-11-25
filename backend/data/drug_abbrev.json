@@ -1,0 +1,20 @@
+{
+  "OD": { "en": "Once daily", "hi": "दिन में एक बार", "bn": "দিনে একবার" },
+  "BD": { "en": "Twice daily", "hi": "दिन में दो बार", "bn": "দিনে দুইবার" },
+  "BID": { "en": "Twice daily", "hi": "दिन में दो बार", "bn": "দিনে দুইবার" },
+  "TDS": { "en": "Three times daily", "hi": "दिन में तीन बार", "bn": "দিনে তিনবার" },
+  "TID": { "en": "Three times daily", "hi": "दिन में तीन बार", "bn": "দিনে তিনবার" },
+  "QDS": { "en": "Four times daily", "hi": "दिन में चार बार", "bn": "দিনে চারবার" },
+  "QID": { "en": "Four times daily", "hi": "दिन में चार बार", "bn": "দিনে চারবার" },
+  "HS": { "en": "At bedtime", "hi": "रात को सोते समय", "bn": "রাতে ঘুমানোর আগে" },
+  "SOS": { "en": "Only when needed (as needed)", "hi": "केवल ज़रूरत पड़ने पर", "bn": "শুধুমাত্র প্রয়োজন হলে" },
+  "PRN": { "en": "As needed", "hi": "आवश्यकतानुसार", "bn": "প্রয়োজন অনুযায়ী" },
+  "STAT": { "en": "Immediately (single urgent dose)", "hi": "तुरंत (एक बार)", "bn": "অবিলম্বে (একবার)" },
+  "AC": { "en": "Before meals", "hi": "खाने से पहले", "bn": "খাওয়ার আগে" },
+  "PC": { "en": "After meals", "hi": "खाने के बाद", "bn": "খাওয়ার পরে" },
+  "PO": { "en": "By mouth (oral)", "hi": "मुंह से (खाने की दवा)", "bn": "মুখে খাওয়ার ওষুধ" },
+  "IV": { "en": "Into a vein (intravenous)", "hi": "नस में (इंजेक्शन)", "bn": "শিরায় ইনজেকশন" },
+  "IM": { "en": "Into a muscle (intramuscular)", "hi": "मांसपेशी में", "bn": "পেশিতে ইনজেকশন" },
+  "SC": { "en": "Under the skin (subcutaneous)", "hi": "त्वचा के नीचे", "bn": "ত্বকের নিচে" },
+  "SL": { "en": "Under the tongue (sublingual)", "hi": "जीभ के नीचे", "bn": "জিভের নিচে" }
+}

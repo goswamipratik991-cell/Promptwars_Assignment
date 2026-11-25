@@ -1,0 +1,171 @@
+[
+  {
+    "analyte": "Potassium",
+    "aliases": ["potassium", "k+", "k", "serum potassium", "s. potassium"],
+    "canonical_unit": "mmol/L",
+    "accepted_units": ["mmol/l", "meq/l"],
+    "low_critical": 2.8,
+    "high_critical": 6.0,
+    "source_note": "Standard adult critical threshold: <2.8 or >6.0 mmol/L (CAP/CLSI critical value consensus)."
+  },
+  {
+    "analyte": "Sodium",
+    "aliases": ["sodium", "na+", "na", "serum sodium", "s. sodium"],
+    "canonical_unit": "mmol/L",
+    "accepted_units": ["mmol/l", "meq/l"],
+    "low_critical": 120,
+    "high_critical": 160,
+    "source_note": "Standard adult critical threshold: <120 or >160 mmol/L."
+  },
+  {
+    "analyte": "Glucose",
+    "aliases": ["glucose", "blood glucose", "random blood sugar", "rbs", "fasting blood sugar", "fbs", "fasting glucose", "plasma glucose"],
+    "canonical_unit": "mg/dL",
+    "accepted_units": ["mg/dl", "mmol/l"],
+    "conversions": {
+      "mmol/l": 18.0182
+    },
+    "low_critical": 45,
+    "high_critical": 450,
+    "source_note": "Critical hypoglycemia <45 mg/dL (2.5 mmol/L) or critical hyperglycemia >450 mg/dL (25.0 mmol/L)."
+  },
+  {
+    "analyte": "Haemoglobin",
+    "aliases": ["haemoglobin", "hemoglobin", "hb", "hgb"],
+    "canonical_unit": "g/dL",
+    "accepted_units": ["g/dl", "g/l", "gm/dl", "gm%"],
+    "conversions": {
+      "g/l": 0.1
+    },
+    "low_critical": 7.0,
+    "high_critical": 20.0,
+    "source_note": "Critical adult haemoglobin <7.0 g/dL or >20.0 g/dL."
+  },
+  {
+    "analyte": "Platelets",
+    "aliases": ["platelets", "platelet count", "plt", "thrombocytes"],
+    "canonical_unit": "10^9/L",
+    "accepted_units": ["10^9/l", "x10^9/l", "10^3/ul", "k/ul", "lakhs/cumm", "/cumm", "/ul", "cells/mm3"],
+    "conversions": {
+      "10^3/ul": 1,
+      "k/ul": 1,
+      "lakhs/cumm": 100,
+      "/cumm": 0.001,
+      "/ul": 0.001,
+      "cells/mm3": 0.001
+    },
+    "low_critical": 20,
+    "high_critical": 1000,
+    "source_note": "Critical thrombocytopenia <20 x10^9/L (20,000/uL) or thrombocytosis >1000 x10^9/L."
+  },
+  {
+    "analyte": "Troponin I",
+    "aliases": ["troponin i", "troponin-i", "trop i", "hs-tni", "high sensitivity troponin i", "troponin"],
+    "canonical_unit": "ng/mL",
+    "accepted_units": ["ng/ml", "ng/l", "pg/ml"],
+    "conversions": {
+      "ng/l": 0.001,
+      "pg/ml": 0.001
+    },
+    "low_critical": null,
+    "high_critical": 0.4,
+    "source_note": "Markedly elevated cardiac troponin >0.4 ng/mL (400 ng/L) warrants immediate medical evaluation."
+  },
+  {
+    "analyte": "Troponin T",
+    "aliases": ["troponin t", "troponin-t", "trop t", "hs-tnt", "high sensitivity troponin t"],
+    "canonical_unit": "ng/L",
+    "accepted_units": ["ng/l", "pg/ml", "ng/ml"],
+    "conversions": {
+      "ng/ml": 1000
+    },
+    "low_critical": null,
+    "high_critical": 100,
+    "source_note": "Markedly elevated Troponin T >100 ng/L warrants prompt urgent medical assessment."
+  },
+  {
+    "analyte": "Creatinine",
+    "aliases": ["creatinine", "serum creatinine", "s. creatinine", "cr"],
+    "canonical_unit": "mg/dL",
+    "accepted_units": ["mg/dl", "umol/l", "µmol/l"],
+    "conversions": {
+      "umol/l": 0.011312,
+      "µmol/l": 0.011312
+    },
+    "low_critical": null,
+    "high_critical": 5.0,
+    "source_note": "Markedly elevated serum creatinine >5.0 mg/dL (442 umol/L) requires urgent clinical review."
+  },
+  {
+    "analyte": "WBC",
+    "aliases": ["wbc", "white blood cell", "white blood cells", "total leukocyte count", "tlc", "leukocytes", "wbc count"],
+    "canonical_unit": "10^9/L",
+    "accepted_units": ["10^9/l", "x10^9/l", "10^3/ul", "k/ul", "/cumm", "/ul", "cells/cumm", "cells/mm3"],
+    "conversions": {
+      "10^3/ul": 1,
+      "k/ul": 1,
+      "/cumm": 0.001,
+      "/ul": 0.001,
+      "cells/cumm": 0.001,
+      "cells/mm3": 0.001
+    },
+    "low_critical": 2.0,
+    "high_critical": 30.0,
+    "source_note": "Critical leukopenia <2.0 x10^9/L or marked leukocytosis >30.0 x10^9/L."
+  },
+  {
+    "analyte": "INR",
+    "aliases": ["inr", "international normalized ratio", "pt/inr"],
+    "canonical_unit": "ratio",
+    "accepted_units": ["", "ratio", "inr"],
+    "low_critical": null,
+    "high_critical": 5.0,
+    "source_note": "Critical INR >5.0 carries elevated bleeding risk requiring urgent physician review."
+  },
+  {
+    "analyte": "Calcium",
+    "aliases": ["calcium", "serum calcium", "total calcium", "ca"],
+    "canonical_unit": "mg/dL",
+    "accepted_units": ["mg/dl", "mmol/l"],
+    "conversions": {
+      "mmol/l": 4.008
+    },
+    "low_critical": 6.5,
+    "high_critical": 13.0,
+    "source_note": "Critical hypocalcemia <6.5 mg/dL or hypercalcemia >13.0 mg/dL."
+  },
+  {
+    "analyte": "Lactate",
+    "aliases": ["lactate", "serum lactate", "lactic acid", "arterial lactate"],
+    "canonical_unit": "mmol/L",
+    "accepted_units": ["mmol/l", "mg/dl"],
+    "conversions": {
+      "mg/dl": 0.111
+    },
+    "low_critical": null,
+    "high_critical": 4.0,
+    "source_note": "Elevated lactate >4.0 mmol/L requires urgent clinical assessment."
+  },
+  {
+    "analyte": "Total Bilirubin",
+    "aliases": ["total bilirubin", "bilirubin total", "t. bilirubin", "serum bilirubin"],
+    "canonical_unit": "mg/dL",
+    "accepted_units": ["mg/dl", "umol/l", "µmol/l"],
+    "conversions": {
+      "umol/l": 0.05848,
+      "µmol/l": 0.05848
+    },
+    "low_critical": null,
+    "high_critical": 15.0,
+    "source_note": "Severe hyperbilirubinemia >15.0 mg/dL requires prompt medical review."
+  },
+  {
+    "analyte": "SpO2",
+    "aliases": ["spo2", "oxygen saturation", "o2 sat", "pulse oximetry"],
+    "canonical_unit": "%",
+    "accepted_units": ["%"],
+    "low_critical": 88,
+    "high_critical": null,
+    "source_note": "Oxygen saturation <88% is critically low and requires urgent medical attention."
+  }
+]

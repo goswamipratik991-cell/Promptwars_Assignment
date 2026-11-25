@@ -1,0 +1,19 @@
+[
+  { "term": "Haemoglobin (Hb)", "simple_meaning": "A protein inside red blood cells that carries oxygen from your lungs to the rest of your body." },
+  { "term": "MCV (Mean Corpuscular Volume)", "simple_meaning": "The average size of your red blood cells." },
+  { "term": "Ferritin", "simple_meaning": "A blood protein that reflects how much iron is stored in your body." },
+  { "term": "WBC / TLC", "simple_meaning": "White blood cells (leukocytes), which are part of your body's immune response." },
+  { "term": "Platelets", "simple_meaning": "Tiny cell fragments in blood that help form clots to stop bleeding." },
+  { "term": "Potassium (K+)", "simple_meaning": "An essential mineral (electrolyte) that helps nerves, muscles, and the heart beat properly." },
+  { "term": "Sodium (Na+)", "simple_meaning": "An electrolyte that helps balance water levels in your body and supports nerve and muscle function." },
+  { "term": "Creatinine", "simple_meaning": "A normal muscle waste product filtered out of your blood by your kidneys." },
+  { "term": "eGFR", "simple_meaning": "An estimate of how well your kidneys are filtering blood each minute." },
+  { "term": "HbA1c", "simple_meaning": "A blood test showing your average blood sugar level over the past 2 to 3 months." },
+  { "term": "Fasting Blood Glucose", "simple_meaning": "The amount of sugar in your blood after not eating or drinking anything except water for at least 8 hours." },
+  { "term": "LDL Cholesterol", "simple_meaning": "A type of cholesterol-carrying particle often monitored because high levels can build up in blood vessels over time." },
+  { "term": "HDL Cholesterol", "simple_meaning": "A cholesterol-carrying particle that helps clear other forms of cholesterol from the bloodstream." },
+  { "term": "Triglycerides", "simple_meaning": "A common type of fat found in the blood that the body uses for energy." },
+  { "term": "Troponin", "simple_meaning": "A protein released into the blood when heart muscle cells are stressed or injured." },
+  { "term": "INR (International Normalized Ratio)", "simple_meaning": "A standardized measurement of how quickly your blood forms a clot." },
+  { "term": "Reference Range", "simple_meaning": "The span of values typically seen in most healthy people tested by that laboratory." }
+]

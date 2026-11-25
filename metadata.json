@@ -1,0 +1,6 @@
+{
+  "name": "MediMind — Medical Report Interpreter",
+  "description": "Clinical-safety-first medical report, lab result, and prescription interpreter with deterministic triage, plain-language explanations, and emergency surfacing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
